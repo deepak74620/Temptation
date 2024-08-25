@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #16244B;
+    color: white;
+    box-sizing: border-box;
+}
+
+.box1{
+    /* border: 2px solid red; */
+    padding: 1em;
+    width: 100vw;
+    height: 10vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box2{
+    width: 100vw;
+    height: 25vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+}
+.cloud{
+    height: 20vmin;
+    width: 20vmin;
+   
+}
+.cloud img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: relative;
+    top: 1em;
+}
+.intro{
+    display: flex;
+    align-items: center;
+   
+}
+.intro :first-child{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-size:3em
+}
+.intro :nth-child(2){
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 0.5rem;
+    margin-left: 100px;
+}
+input{
+  padding: 1em;
+  margin: 1em;
+  width: 20vw;
+  border-radius: 20px;
+  border-color:#16244B;
+  position: relative;
+  left: -5%;
+}
+.box1 button{
+    padding: 1vw;
+    width: 8vw;
+    border-radius: 2em;
+  border-color:#16244B;
+
+}
+
+.box2 p{
+    font-size: 3vmax;
+    position: relative;
+    left: -5em;
+}
+@media (max-width: 750px ) {
+    .first{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 100vw;
+    }
+    .second{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box2 p{
+       font-size: 5vmin;
+        left: 0;
+        
+    }
+    .box1{
+        width: 90%;
+    }
+}
+
+.box{
+    width: 15vmax;
+    height: 15vmax;
+    margin: 10px;
+    border-radius: 5px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    margin-top: 5vh;
+}
+
+.bar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 50vw;
+    margin-left: 5vw;
+}
+.bar button{
+    border-radius: 3em;
+    border-style: none;
+    
+}
+button{
+    cursor: pointer;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px 10px #7f99e0;
+}
+@media  (max-width:330px){
+    main{
+        margin-left: 15vw;
+    }
+}
+
+#footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
